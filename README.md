@@ -29,7 +29,7 @@ Laya.stage.addChild(j);
 var j = new JoyStick();
 j.pos(0, 300);
 j.autoAlpha = true;//自动半透明.默认true
-j.joystickAlpha = 0.4;//半透明值.默认0.4
+j.joystickAlpha = 0.4;//半透明值.默认0.4
 j.fixedPosition = true;//固定位置.默认true
 j.setRadius(100);//设置半径.默认100
 j.setTouchSize(Laya.stage.width, 500);//设置可触摸区域.默认全屏
